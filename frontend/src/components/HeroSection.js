@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center text-center px-6">
@@ -28,7 +29,7 @@ export default function HeroSection() {
         </p>
 
         <button className="mt-10 bg-secondary text-black px-8 py-3 rounded-full text-lg hover:scale-105 transition">
-          Join Now
+          <Link href="/contact">Join Now</Link>
         </button>
       </motion.div>
     </section>
