@@ -2,12 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { FaBars, FaTimes, FaChevronDown } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
 
@@ -27,40 +27,51 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-primary py-3 shadow-xl" : "bg-primary py-5"
+        scrolled ? "bg-primary py-3 shadow-xl" : "bg-primary py-4"
       } text-white`}
     >
-      <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold tracking-wide">
-          Swaranjali
+      <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
+        {/* LOGO SECTION */}
+        <Link href="/" className="flex items-center gap-3">
+          <img
+            src="/logo.jpeg"
+            alt="Swaranjali Logo"
+            width={50}
+            height={50}
+            className="rounded-2 object-cover"
+          />
+          <span className="hidden sm:block text-lg md:text-xl font-semibold leading-tight">
+            Swaranjali Sangeetha
+            <br />
+            <span className="text-secondary text-sm md:text-base">
+              Kalaa Shale (R)
+            </span>
+          </span>
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-8 text-lg relative">
+        <div className="hidden md:flex items-center space-x-8 text-lg">
           <Link href="/" className={navLinkClass("/")}>
             Home
           </Link>
-
           <Link href="/about" className={navLinkClass("/about")}>
             About
           </Link>
-
           <Link href="/courses" className={navLinkClass("/courses")}>
             Courses
           </Link>
-
+          <Link href="/fees" className={navLinkClass("/fees")}>
+            Fees and Timings
+          </Link>
           <Link href="/events" className={navLinkClass("/events")}>
             Events
           </Link>
-
           <Link href="/achievements" className={navLinkClass("/achievements")}>
             Achievements
           </Link>
-
           <Link href="/gallery" className={navLinkClass("/gallery")}>
             Gallery
           </Link>
-
           <Link href="/contact" className={navLinkClass("/contact")}>
             Contact
           </Link>
@@ -82,27 +93,21 @@ export default function Navbar() {
           <Link href="/" onClick={() => setMenuOpen(false)}>
             Home
           </Link>
-
           <Link href="/about" onClick={() => setMenuOpen(false)}>
             About
           </Link>
-
           <Link href="/courses" onClick={() => setMenuOpen(false)}>
             Courses
           </Link>
-
           <Link href="/events" onClick={() => setMenuOpen(false)}>
             Events
           </Link>
-
           <Link href="/achievements" onClick={() => setMenuOpen(false)}>
             Achievements
           </Link>
-
           <Link href="/gallery" onClick={() => setMenuOpen(false)}>
             Gallery
           </Link>
-
           <Link href="/contact" onClick={() => setMenuOpen(false)}>
             Contact
           </Link>
