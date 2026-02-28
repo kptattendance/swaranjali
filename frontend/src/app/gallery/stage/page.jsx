@@ -13,7 +13,7 @@ export default function StagePage() {
         whileInView={{ opacity: 1, y: 0 }}
         className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center"
       >
-        <img src="/images/stage1.jpg" className="rounded-xl shadow-xl" />
+        <img src="/1.png" className="rounded-xl shadow-xl" />
         <div>
           <h2 className="text-2xl font-bold text-primary mb-4">
             Classical Concert Performance

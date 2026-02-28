@@ -8,7 +8,7 @@ export default function GallerySection() {
           (img, index) => (
             <div key={index} className="overflow-hidden rounded-xl shadow-lg">
               <img
-                src={`/images/${img}`}
+                src="/1.png"
                 alt="Gallery"
                 className="hover:scale-110 transition duration-500"
               />

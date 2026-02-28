@@ -20,7 +20,7 @@ export default function CertificatesPage() {
             key={index}
             className="overflow-hidden rounded-xl shadow-xl hover:scale-105 transition"
           >
-            <img src={`/images/${cert}`} alt="Certificate" className="w-full" />
+            <img src={`/1.png`} alt="Certificate" className="w-full" />
           </div>
         ))}
       </div>

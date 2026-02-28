@@ -15,10 +15,10 @@ export default function Home() {
       <HeroSection />
       <CourseSection />
       <GuruSection />
-      <TestimonialSection />
-      <GallerySection />
       <EventsSection />
       <AchievementsSection />
+      <TestimonialSection />
+      <GallerySection />
       <ContactSection />
     </>
   );

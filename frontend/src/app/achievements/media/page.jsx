@@ -6,7 +6,7 @@ export default function MediaPage() {
       </h1>
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <img src="/images/media1.jpg" className="rounded-xl shadow-xl" />
+        <img src="/1.png" className="rounded-xl shadow-xl" />
 
         <div>
           <h2 className="text-2xl font-bold text-primary mb-4">
@@ -28,7 +28,7 @@ export default function MediaPage() {
           </p>
         </div>
 
-        <img src="/images/media2.jpg" className="rounded-xl shadow-xl" />
+        <img src="/1.png" className="rounded-xl shadow-xl" />
       </div>
     </div>
   );

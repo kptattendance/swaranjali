@@ -3,7 +3,7 @@ export default function TemplePage() {
     <div className="min-h-screen">
       <div
         className="h-[70vh] bg-cover bg-center relative"
-        style={{ backgroundImage: "url('/images/temple.jpg')" }}
+        style={{ backgroundImage: "url('/1.png')" }}
       >
         <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
           <h1 className="text-white text-5xl font-bold">Temple Concerts</h1>

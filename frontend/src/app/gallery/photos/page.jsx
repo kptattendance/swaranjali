@@ -3,14 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function PhotosPage() {
-  const images = [
-    "gallery1.jpg",
-    "gallery2.jpg",
-    "gallery3.jpg",
-    "gallery4.jpg",
-    "gallery5.jpg",
-    "gallery6.jpg",
-  ];
+  const images = ["1.png", "1.png", "1.png", "1.png", "1.png", "1.png"];
 
   const [selected, setSelected] = useState(null);
 
