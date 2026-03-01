@@ -6,12 +6,12 @@ import Link from "next/link";
 export default function TimingsPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* HERO */}
-      <div className="bg-accent text-primary py-24 text-center">
+      <div className="bg-gradient-to-br from-primary via-black to-primary text-white py-20 md:py-24 text-center px-6">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-5xl font-bold"
+          transition={{ duration: 0.6 }}
+          className="text-3xl md:text-5xl font-bold"
         >
           Batch Timings
         </motion.h1>
