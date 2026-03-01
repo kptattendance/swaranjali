@@ -88,27 +88,70 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden bg-primary px-6 pb-6 space-y-4 text-lg">
-          <Link href="/" onClick={() => setMenuOpen(false)}>
+        <div className="md:hidden bg-primary px-6 pb-6 pt-4 flex flex-col items-center space-y-5 text-lg">
+          <Link
+            href="/"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
             Home
           </Link>
-          <Link href="/about" onClick={() => setMenuOpen(false)}>
+
+          <Link
+            href="/about"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
             About
           </Link>
-          <Link href="/courses" onClick={() => setMenuOpen(false)}>
+
+          <Link
+            href="/courses"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
             Courses
           </Link>
-          <Link href="/events" onClick={() => setMenuOpen(false)}>
+
+          <Link
+            href="/fees"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
+            Fees and Timings
+          </Link>
+
+          <Link
+            href="/events"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
             Events
           </Link>
-          <Link href="/achievements" onClick={() => setMenuOpen(false)}>
+
+          <Link
+            href="/achievements"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
             Achievements
           </Link>
-          <Link href="/gallery" onClick={() => setMenuOpen(false)}>
+
+          <Link
+            href="/gallery"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
             Gallery
           </Link>
-          <Link href="/contact" onClick={() => setMenuOpen(false)}>
+
+          <Link
+            href="/contact"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-center hover:text-secondary transition"
+          >
             Contact
           </Link>
         </div>

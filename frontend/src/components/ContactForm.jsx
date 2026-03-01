@@ -40,8 +40,11 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg space-y-6"
+      className="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-xl space-y-6"
     >
+      <h2 className="text-xl md:text-2xl mt-0 font-bold text-center  text-primary mb-3">
+        We’d Love to Hear From You 🎵
+      </h2>
       <input
         type="text"
         name="name"
