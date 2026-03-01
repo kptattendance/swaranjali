@@ -36,7 +36,7 @@ export default function CoursesPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white">
       <div className="bg-gradient-to-br from-primary via-black to-primary text-white py-20 md:py-24 text-center px-6">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}

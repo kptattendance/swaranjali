@@ -14,21 +14,22 @@ export default function Footer() {
     <footer className="bg-primary text-white pt-9 pb-4 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-center md:text-left">
         {/* About Academy */}
-        <div className="space-y-4 flex flex-col items-center md:items-start">
-          {/* Logo */}
-          <Link href="/">
+        <div className="flex flex-col items-center text-center space-y-4">
+          <Link href="/" className="flex flex-col items-center space-y-3">
             <img
               src="/logo.jpeg"
               alt="Swaranjali Logo"
               width={120}
-              height={90}
-              className="rounded-l object-cover border-2 border-white shadow-lg hover:scale-105 hover:cursor-pointer transition duration-300"
+              height={120}
+              className="mx-auto rounded-lg object-cover border-2 border-white shadow-lg hover:scale-105 transition duration-300"
             />
 
-            <h2 className="text-xl md:text-2xl font-bold">
-              Swaranjali Sangeetha Kalaa Shaale (R)
+            <h2 className="text-xl md:text-2xl font-bold leading-snug">
+              Swaranjali Sangeetha{" "}
+              <span className="text-secondary">Kalaa Shaale (R) </span>
             </h2>
           </Link>
+
           <p className="text-sm opacity-90 max-w-xs">
             Empowering students through music since 2010.
           </p>
@@ -40,10 +41,10 @@ export default function Footer() {
 
           <ul className="space-y-3 text-sm">
             {[
-              { name: "Disclaimer", link: "/" },
-              { name: "Terms & Conditions", link: "/about" },
-              { name: "Privacy Policy", link: "/course" },
-              { name: "Copyright Notice", link: "/events" },
+              { name: "Disclaimer", link: "/disclaimer" },
+              { name: "Terms & Conditions", link: "/terms" },
+              { name: "Privacy Policy", link: "/privacy" },
+              { name: "Copyright Notice", link: "/copyright" },
               { name: "Fee Structure", link: "/fees" },
             ].map((item, index) => (
               <li key={index}>

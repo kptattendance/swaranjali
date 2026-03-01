@@ -2,7 +2,7 @@ export default function RecognitionPage() {
   const certificates = ["cert1.jpg", "cert2.jpg", "cert3.jpg", "cert4.jpg"];
 
   return (
-    <div className="min-h-screen bg-accent py-20 px-6">
+    <div className=" bg-accent py-20 px-6">
       <h1 className="text-4xl font-bold text-primary text-center mb-16">
         Recognition & Certificates
       </h1>

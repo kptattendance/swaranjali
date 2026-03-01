@@ -9,7 +9,7 @@ import WorkshopsPage from "./workshops/page";
 
 export default function EventsPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white">
       <div className="bg-gradient-to-br from-primary via-black to-primary text-white py-20 md:py-24 text-center px-6">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
@@ -21,8 +21,7 @@ export default function EventsPage() {
         </motion.h1>
 
         <p className="mt-6 text-lg max-w-3xl mx-auto">
-          Explore our structured music programs designed for all age groups and
-          skill levels.
+          Where Talent Meets the Stage and Tradition Shines.
         </p>
       </div>
 

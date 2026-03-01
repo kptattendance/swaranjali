@@ -1,6 +1,6 @@
 export default function AnnualPage() {
   return (
-    <div className="min-h-screen bg-accent py-24 px-6 text-center">
+    <div className=" bg-accent py-24 px-6 text-center">
       <h1 className="text-4xl font-bold text-primary mb-12">
         Annual Day Celebration
       </h1>

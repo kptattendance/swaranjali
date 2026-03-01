@@ -6,7 +6,7 @@ export default function VideosPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-accent py-24 px-6">
+    <div className=" bg-accent py-24 px-6">
       <h1 className="text-4xl font-bold text-primary text-center mb-16">
         Video Gallery
       </h1>

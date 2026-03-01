@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { AnimatePresence, motion } from "framer-motion";
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 const playfair = Playfair_Display({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main>{children}</main>
         <WhatsAppButton />
+        <ScrollToTopButton />
         <Footer />
       </body>
     </html>

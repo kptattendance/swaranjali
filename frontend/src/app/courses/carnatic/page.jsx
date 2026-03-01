@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function CarnaticPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white">
       {/* HERO */}
       <div
         className="h-[60vh] bg-cover bg-center relative"

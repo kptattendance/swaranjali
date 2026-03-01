@@ -1,6 +1,6 @@
 export default function MilestonesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-primary to-black text-white py-24 px-6 text-center">
+    <div className=" bg-gradient-to-r from-primary to-black text-white py-24 px-6 text-center">
       <h1 className="text-4xl font-bold mb-20">Performance Milestones</h1>
 
       <div className="grid md:grid-cols-4 gap-10 max-w-6xl mx-auto">

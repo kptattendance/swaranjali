@@ -8,19 +8,19 @@ export default function FeesPage() {
   const plans = [
     {
       title: "Beginner Level",
-      price: "₹XXXX / month",
+      price: "₹600 / month",
       features: [
         "Foundation Training",
         "Sarali & Janta Varisai",
         "Basic Geethams",
-        "1–2 Classes per Week",
+        "1 Classes per Week",
         "Performance Guidance",
       ],
       highlight: false,
     },
     {
       title: "Intermediate Level",
-      price: "₹XXXX / month",
+      price: "₹600 / month",
       features: [
         "Varnams & Kritis",
         "Tala & Raga Theory",
@@ -32,7 +32,7 @@ export default function FeesPage() {
     },
     {
       title: "Advanced Level",
-      price: "₹XXXX / month",
+      price: "₹600 / month",
       features: [
         "Manodharma Training",
         "Alapana & Swaras",
@@ -44,7 +44,7 @@ export default function FeesPage() {
     },
     {
       title: "Harmonium",
-      price: "₹XXXX / month",
+      price: "₹500 / month",
       features: [
         "Basic Fingering",
         "Raga-Based Playing",

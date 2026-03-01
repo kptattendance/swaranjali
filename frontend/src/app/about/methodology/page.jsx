@@ -37,7 +37,7 @@ export default function MethodologyPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white py-20 px-6">
+    <div className=" bg-white py-20 px-6">
       <h1 className="text-4xl font-bold text-primary text-center mb-16">
         Teaching Methodology
       </h1>

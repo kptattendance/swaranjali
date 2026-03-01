@@ -1,6 +1,6 @@
 export default function AnnualGalleryPage() {
   return (
-    <div className="min-h-screen">
+    <div className="bg-white">
       <div
         className="h-[60vh] bg-cover bg-center relative"
         style={{ backgroundImage: "url('/1.png')" }}

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function TimingsPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white">
       <div className="bg-gradient-to-br from-primary via-black to-primary text-white py-20 md:py-24 text-center px-6">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
@@ -23,7 +23,7 @@ export default function TimingsPage() {
       </div>
 
       {/* TIMING CARDS */}
-      <div className="max-w-6xl mx-auto py-24 px-6 grid md:grid-cols-2 gap-12">
+      <div className="max-w-6xl mx-auto py-14 px-6 grid md:grid-cols-2 gap-12">
         {/* Weekday Batch */}
         <motion.div
           whileHover={{ scale: 1.05 }}
@@ -50,7 +50,7 @@ export default function TimingsPage() {
           </h2>
 
           <ul className="space-y-3 text-gray-700">
-            <li>📅 Saturday – 9:00 AM to 12:00 PM</li>
+            <li>📅 Saturday – 2:00 PM to 6:00 PM</li>
             <li>📅 Sunday – 9:00 AM to 11:00 AM</li>
             <li>Special Bhajan Session – Sunday Evening</li>
           </ul>
@@ -58,7 +58,7 @@ export default function TimingsPage() {
       </div>
 
       {/* INDIVIDUAL & ONLINE */}
-      <div className="bg-white py-16 px-6 text-center">
+      <div className="bg-white mb-16 px-6 text-center">
         <h2 className="text-3xl font-bold text-primary mb-8">
           Individual & Online Options
         </h2>
@@ -74,11 +74,11 @@ export default function TimingsPage() {
             </p>
           </div>
 
-          <div className="bg-accent p-8 rounded-xl shadow-lg">
-            <h3 className="text-xl font-semibold text-primary mb-4">
+          <div className="bg-primary p-8 rounded-xl shadow-lg">
+            <h3 className="text-xl font-semibold text-accent mb-4">
               🌐 Online Classes
             </h3>
-            <p className="text-gray-700">
+            <p className="text-white">
               Online sessions available for students outside Mangalore with
               flexible scheduling options.
             </p>

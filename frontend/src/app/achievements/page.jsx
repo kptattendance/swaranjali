@@ -27,6 +27,9 @@ export default function AchievementsPage() {
         >
           Achievements & Recognition
         </motion.h1>
+        <p className="mt-4 text-base md:text-lg max-w-2xl mx-auto">
+          From dedication to distinction — our journey of success.
+        </p>
       </div>
       <AwardsPage />
       <CompetitionPage />

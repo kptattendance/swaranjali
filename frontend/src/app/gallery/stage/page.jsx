@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function StagePage() {
   return (
-    <div className="min-h-screen bg-accent py-24 px-6 space-y-20">
+    <div className=" bg-accent py-24 px-6 space-y-20">
       <h1 className="text-4xl font-bold text-primary text-center">
         Stage Performance Moments
       </h1>

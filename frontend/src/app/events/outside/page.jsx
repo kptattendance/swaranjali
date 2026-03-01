@@ -16,7 +16,7 @@ export default function OutsidePage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white py-24 px-6 space-y-24">
+    <div className=" bg-white py-24 px-6 space-y-24">
       <h1 className="text-4xl font-bold text-primary text-center">
         Outside Performances
       </h1>

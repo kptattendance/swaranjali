@@ -8,7 +8,7 @@ export default function HistoryPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-accent py-20 px-6">
+    <div className=" bg-accent py-20 px-6">
       <h1 className="text-4xl font-bold text-primary text-center mb-16">
         Academy History
       </h1>

@@ -13,7 +13,7 @@ export default function AwardsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-accent py-24 px-6 text-center">
+    <div className=" bg-accent py-24 px-6 text-center">
       <h1 className="text-4xl font-bold text-primary mb-16">Student Awards</h1>
 
       <div className="max-w-6xl mx-auto grid text-primary md:grid-cols-3 gap-8">

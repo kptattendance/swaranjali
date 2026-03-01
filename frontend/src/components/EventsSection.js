@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 export default function EventsSection() {
@@ -32,23 +33,25 @@ export default function EventsSection() {
 
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-6">
         {events.map((event, index) => (
-          <div
-            key={index}
-            onClick={() => setSelectedEvent(event)}
-            className="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-2xl hover:-translate-y-2 transition"
-          >
-            <img
-              src={event.image}
-              alt={event.title}
-              className="rounded-t-xl h-56 w-full object-cover"
-            />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-primary">
-                {event.title}
-              </h3>
-              <p className="text-gray-600 mt-2">{event.date}</p>
+          <Link key={index} href="\events">
+            <div
+              key={index}
+              onClick={() => setSelectedEvent(event)}
+              className="bg-white rounded-xl shadow-lg cursor-pointer hover:shadow-2xl hover:-translate-y-2 transition"
+            >
+              <img
+                src={event.image}
+                alt={event.title}
+                className="rounded-t-xl h-56 w-full object-cover"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-primary">
+                  {event.title}
+                </h3>
+                <p className="text-gray-600 mt-2">{event.date}</p>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 

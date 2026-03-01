@@ -6,7 +6,7 @@ import { FaPhoneAlt, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className=" bg-white">
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-primary via-black to-primary text-white py-20 md:py-24 text-center px-6">
         <motion.h1
@@ -86,8 +86,6 @@ export default function ContactPage() {
           transition={{ duration: 0.6 }}
           className="w-full"
         >
-          
-
           <ContactForm />
         </motion.div>
       </div>

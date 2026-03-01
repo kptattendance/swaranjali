@@ -8,7 +8,7 @@ export default function PhotosPage() {
   const [selected, setSelected] = useState(null);
 
   return (
-    <div className="min-h-screen bg-white py-24 px-6">
+    <div className=" bg-white py-24 px-6">
       <h1 className="text-4xl font-bold text-primary text-center mb-16">
         Photo Gallery
       </h1>
