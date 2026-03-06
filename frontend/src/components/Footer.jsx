@@ -155,10 +155,15 @@ export default function Footer() {
             <FaYoutube />
           </a>
         </div>
-
         {/* Bottom Line */}
         <div className="text-center text-xs mt-3 opacity-80">
-          Developed & Maintained by Swasyaha Solutions
+          <Link
+            href="https://swasyaha.in"
+            target="_blank"
+            className="hover:text-secondary hover:underline cursor-pointer transition"
+          >
+            Developed & Maintained by Swasyaha Solutions
+          </Link>
         </div>
       </div>
     </footer>
