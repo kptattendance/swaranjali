@@ -11,7 +11,7 @@ export default function EventsSection() {
       title: "Navaratri Special Concert",
       date: "October 2025",
       venue: "Sri Krishna Temple, Mangalore",
-      image: "/1.png",
+      image: "/images/1.jpeg",
       description:
         "Students performed classical Carnatic compositions during Navaratri celebrations.",
     },
@@ -19,7 +19,7 @@ export default function EventsSection() {
       title: "Annual Day Celebration",
       date: "August 2025",
       venue: "Town Hall, Mangalore",
-      image: "/1.png",
+      image: "/images/5.jpeg",
       description:
         "Grand annual performance showcasing students across all levels.",
     },

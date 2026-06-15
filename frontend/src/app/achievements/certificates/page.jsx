@@ -1,11 +1,11 @@
 export default function CertificatesPage() {
   const certificates = [
-    "cert1.jpg",
-    "cert2.jpg",
-    "cert3.jpg",
-    "cert4.jpg",
-    "cert5.jpg",
-    "cert6.jpg",
+    "/images/1.jpeg",
+    "/images/2.jpeg",
+    "/images/3.jpeg",
+    "/images/7.jpeg",
+    "/images/5.jpeg",
+    "/images/6.jpeg",
   ];
 
   return (
@@ -20,7 +20,7 @@ export default function CertificatesPage() {
             key={index}
             className="overflow-hidden rounded-xl shadow-xl hover:scale-105 transition"
           >
-            <img src={`/1.png`} alt="Certificate" className="w-full" />
+            <img src={cert} alt="Certificate" className="w-full" />
           </div>
         ))}
       </div>

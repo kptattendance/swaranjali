@@ -10,7 +10,7 @@ export default function RecognitionPage() {
       <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-8">
         {certificates.map((cert, index) => (
           <div key={index} className="bg-white p-4 rounded-xl shadow-lg">
-            <img src="\1.png" alt="Certificate" className="rounded-lg" />
+            <img src="\1.jpeg" alt="Certificate" className="rounded-lg" />
           </div>
         ))}
       </div>

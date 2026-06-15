@@ -14,9 +14,9 @@ export default function AnnualGalleryPage() {
 
       <div className="py-20 px-6 bg-white">
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <img src="/1.png" className="rounded-xl shadow-lg" />
-          <img src="/1.png" className="rounded-xl shadow-lg" />
-          <img src="/1.png" className="rounded-xl shadow-lg" />
+          <img src="/images/1.jpeg" className="rounded-xl shadow-lg" />
+          <img src="/images/3.jpeg" className="rounded-xl shadow-lg" />
+          <img src="/images/7.jpeg" className="rounded-xl shadow-lg" />
         </div>
       </div>
     </div>

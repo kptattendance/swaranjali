@@ -6,12 +6,12 @@ export default function OutsidePage() {
     {
       title: "Sabha Performance",
       desc: "Students performed classical kritis in local sabhas.",
-      image: "/1.png",
+      image: "/images/1.jpeg",
     },
     {
       title: "Community Cultural Festival",
       desc: "Devotional and classical presentation.",
-      image: "/1.png",
+      image: "/images/6.jpeg",
     },
   ];
 
